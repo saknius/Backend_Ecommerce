@@ -10,7 +10,8 @@ Rails.application.routes.draw do
   # get "/updatetodos", to:"todos#updateTodo"
   put "/todos", to:"todos#updateTodo"
   # get "/deletetodos", to:"todos#deleteTodo"
-  delete "/todos/:id", to:"todos#deleteTodo"
+  delete "/todos", to:"todos#deleteTodo"
+  post "/todosdelete", to:"todos#deleteTodo"
 
   # Defines the root path route ("/")
   # root "articles#index"

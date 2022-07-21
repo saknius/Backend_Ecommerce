@@ -1,0 +1,2 @@
+class Dreamshop < ApplicationRecord
+end
